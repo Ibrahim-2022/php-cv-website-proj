@@ -1,0 +1,58 @@
+
+
+/* Start cource-main section*/
+
+.course-info .course-main table {
+    margin: 12px 0;
+    border-radius: 20% !important;
+    -webkit-border-radius: 20% !important;
+    -moz-border-radius: 20% !important;
+    -ms-border-radius: 20% !important;
+    -o-border-radius: 20% !important;
+}
+
+
+.course-info .course-main table, th, td {
+    border: 1px solid;
+    height: 80px;
+    text-align: center;
+    padding: 5px;
+}
+
+.course-info .course-main table tr:nth-child(odd){
+    background-color: var(--table-striped);
+}
+
+.course-info .course-main table thead th {
+    height: 40px;
+    width: 30px;
+    background-color: var(--table-header-color);
+}
+  
+.course-info .course-main table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.course-info .course-main table p {
+    text-align: left;
+}
+/* End cource-main section */
+
+/* Start view-attachment section */
+.view-attachment h1{
+    margin: 20px 0;
+}
+
+.view-attachment p {
+    margin: 20px 0;
+}
+
+.view-attachment img {
+    margin: 50px 200px;
+    object-fit: cover;
+    box-shadow: 0 0 10px 8px #ccc ;
+}
+/* End view-attachment section */
+
